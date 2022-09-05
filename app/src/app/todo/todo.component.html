@@ -2,7 +2,8 @@
   <h1>Mis tareas</h1>
   <div class="add row">
     <div class="col-8">
-      <input class="form-control" #newItem id="addTask" placeholder="Agregar una tarea"/>
+      <input class="form-control" #newItem id="addTask" placeholder="Agregar una tarea" 
+        (keyup.enter)="todoService.add(newItem.value);newItem.value = ''"/>
     </div>
     <div class="col-4">
       <button class="btn btn-primary" (click)="todoService.add(newItem.value);newItem.value = ''">Add</button>

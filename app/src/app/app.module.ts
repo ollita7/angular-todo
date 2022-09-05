@@ -7,18 +7,22 @@ import { TodoComponent } from './todo/todo.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { TodoTaskComponent } from './todo-task/todo-task.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+import { FootballComponent } from './football/football.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoComponent,
     PageNotFoundComponent,
-    TodoTaskComponent
+    TodoTaskComponent,
+    FootballComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
