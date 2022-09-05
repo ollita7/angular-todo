@@ -1,0 +1,5 @@
+1- ng new app
+2- ng serve para levantar la app por defecto.
+3- ng generate component todo.
+4- Add todo to routing.
+5- ng generate service services/todo
