@@ -3,3 +3,4 @@
 3- ng generate component todo.
 4- Add todo to routing.
 5- ng generate service services/todo
+6- ng add ngx-bootstrap
